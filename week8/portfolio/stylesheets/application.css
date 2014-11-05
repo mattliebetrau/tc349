@@ -121,13 +121,23 @@ a:visited {
   margin: 0 auto;
   border-radius: 50%;
   width: 200px;
+  border: 5px solid transparent;
+  -webkit-transition-property: border;
+  -moz-transition-property: border;
+  -o-transition-property: border;
+  transition-property: border;
+}
+/* line 15, ../sass/components/_masthead.scss */
+.profile-pic:hover {
+  border: 5px solid #6a6a6a;
 }
 
-/* line 15, ../sass/components/_masthead.scss */
+/* line 20, ../sass/components/_masthead.scss */
 .headline {
   margin-top: 30px;
   text-align: center;
   color: #6a6a6a;
+  text-shadow: #d0d0d0 1px 1px 0;
 }
 
 /* line 1, ../sass/components/_mediagrid.scss */
@@ -233,6 +243,10 @@ a:visited {
   border-top: 5px solid #2a6aab;
   border-left: 5px solid #2a6aab;
   border-right: 5px solid #2a6aab;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 
