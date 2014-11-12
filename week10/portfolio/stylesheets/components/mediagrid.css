@@ -1,0 +1,86 @@
+/* line 1, ../../sass/components/mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #093E76;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../sass/components/mediagrid.scss */
+.media-grid li {
+  background-color: #fff;
+  float: left;
+  height: 200px;
+  width: 20%;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+
+/* line 19, ../../sass/components/mediagrid.scss */
+.media-grid li p {
+  margin: 0 10px;
+}
+
+/* line 23, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+/* line 27, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(1) {
+  color: #2a6aab;
+}
+
+/* line 31, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(2) {
+  background-image: url(../img/html_ss.jpg);
+}
+
+/* line 35, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(8) {
+  background-image: url(../img/css_ss.jpg);
+}
+
+/* line 39, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(4) {
+  background-image: url(../img/jQuery_ss.jpg);
+}
+
+/* line 43, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(5) {
+  background-image: url(../img/mobile_first.jpg);
+}
+
+/* line 47, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(6) {
+  background-image: url(../img/browsers.jpg);
+  background-position: center;
+}
+
+/* line 52, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(3) {
+  background-image: url(../img/drupal.jpg);
+}
+
+/* line 56, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(7) {
+  background-image: url(../img/grid_ss.jpg);
+}
+
+/* line 60, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(9) {
+  background-image: url(../img/gulp.jpg);
+}
+
+/* line 64, ../../sass/components/mediagrid.scss */
+.media-grid li:nth-child(10) {
+  background-image: url(../img/accesibility.jpg);
+}
+
+/* line 68, ../../sass/components/mediagrid.scss */
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
