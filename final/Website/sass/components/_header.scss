@@ -1,0 +1,43 @@
+header {
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+.header-container {
+	width: 100%;
+	max-width: 1200px;
+	min-height: 100px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	@media (min-width: 1205px) {
+		padding: 10px 0;
+	}
+	box-sizing: border-box;
+	background-color: #fff;
+	h1 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 1.5em;
+		margin-top: 32px;
+		@media (min-width: 900px) {
+			margin-top: 18px;
+		}
+		margin-left: 100px;
+		text-transform: uppercase;
+	}
+	img {
+		width: 80px;
+		display: block;
+		float: left;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+.title a {
+	color: #000;
+	&:visited {
+		color: #000;
+	}
+}

@@ -1,0 +1,84 @@
+input {
+	background-color: darken(#383838, 7%);
+	border: none;
+	height: 40px;
+	font-size: 1.2em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+textarea {
+	background-color: darken(#383838, 7%);
+	border: none;
+	height: 150px;
+	font-size: 1.2em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form {
+	margin: 0 auto;
+	width: 655px;
+	@media (max-width: 850px) {
+		width: 90%;
+		margin-left: 20px;
+	}
+}
+
+.form-name {
+	display: inline-block;
+	input{
+		width: 300px;
+		outline-color: $orange;
+		margin-right: 40px;
+	}
+	@media (max-width: 750px) {
+		display: block;
+	}
+}
+.form-email {
+	display: inline-block;
+	input{
+		width: 300px;
+		outline-color: $orange;
+	}
+	@media (max-width: 750px) {
+		display: block;
+	}
+}
+.form-subject {
+	input {
+		width: 645px;
+		outline-color: $orange;
+		@media (max-width: 750px) {
+			width: 300px;
+		}
+	}
+}
+.form-comments {
+	textarea {
+		width: 645px;
+		outline-color: $orange;
+		@media (max-width: 750px) {
+			width: 300px;
+		}
+	}	
+}
+.submit {
+	background-color: $red;
+	&:hover, &:focus {
+		background-color: darken($red, 15%);
+	}
+	font-weight: 600;
+	font-size: 1.25em;
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+}
+.hide {
+	display: none;
+}
